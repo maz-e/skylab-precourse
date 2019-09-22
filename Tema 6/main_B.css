@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    padding: 20px;
+}
+
+.logo:hover {
+    background-color: white !important;
+}
+
+nav a:hover {
+    background-color: aquamarine
+}
+
+#top-banner {
+    height: 300px;
+    background-image: url(mountain.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-banner h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.box-pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 200px;
+}
+
+.pricing {
+    margin: 0 10px;
+    border: 1px solid gray;
+}
+
+.pricing ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.pricing ul li:nth-child(n+3) {
+    border-bottom: 1px solid gray;
+}
+
+.pricing ul li:nth-child(n+4) {
+    background-color: #eeeeee;
+}
+
+li.title1, li.price1, li.subtitle1 {
+    color: white;
+    background-color: green;
+    font-weight: bold;
+}
+
+li.title2, li.price2, li.subtitle2 {
+    color: white;
+    background-color: darkcyan;
+    text-align: center;
+    font-weight: bold;
+}
+
+li.title3, li.price3, li.subtitle3 {
+    color: white;
+    background-color: maroon;
+    text-align: center;
+    font-weight: bold;
+}
+
+li.subtitle1, li.subtitle2, li.subtitle3 {
+    color: #cdcdcd;
+    font-size: 15px;
+}
+
+.price1, .price2, .price3 {
+    font-size: 40px;
+}
+
+.button {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 40px;
+    border: 1px solid gray;
+    background-color: White;
+    font-weight: bold;
+}
