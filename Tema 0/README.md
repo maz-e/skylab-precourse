@@ -57,7 +57,7 @@ false || false //false
 ```
 
 ## CONDICIONALES
-![Conditional Diagram](/images/conditional.jpg)
+![Conditional Diagram](./images/conditional.jpg)
 ```javascript
 // if
 let num = 5;
@@ -104,7 +104,7 @@ switch (season) {
 ```
 
 ## LOOPS
-![Loop Diagram](/images/loop.jpg)
+![Loop Diagram](./images/loop.jpg)
 ```javascript
 // For
 for (let i = 0; i < 10; i++){
